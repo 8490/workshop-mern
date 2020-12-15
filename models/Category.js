@@ -7,7 +7,7 @@ const schema = new Schema({
         required: true,
     },
     status: {
-        style: String,
+        type: String,
         default: "created",
     },
     description: {

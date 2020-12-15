@@ -25,7 +25,7 @@ const schema = new Schema({
         type: String,
     },
     status: {
-        style: String,
+        type: String,
         default: "created",
     },
     createdDate: {
