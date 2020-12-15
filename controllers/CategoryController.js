@@ -24,7 +24,7 @@ exports.addCategory = async (req, res) => {
 
     // const category = new Category(req.body);
     const addedCategory= await category.save({new: true});
-    res.save(200).json(addedCategory);
+    res.status(200).json(addedCategory);
 }
 
 exports.getCategory = async (req, res) => {
